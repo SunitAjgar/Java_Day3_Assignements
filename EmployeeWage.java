@@ -22,6 +22,10 @@ public class EmployeeWage {
         fullWage = EmpWagePerHr * fullWorkingHr;
         System.out.println("The Daily Employee Wage for full time Employee is  "+fullWage +"$");
         break;
+		case 2:
+		System.out.println("Employee is partime present");
+		partTimeWage1 = partTimeWage * partWorkingHr;
+		System.out.println("The Daily Wage for the Part Time Employee is  "+partTimeWage1 +"$");
 		}
 	}
 }
